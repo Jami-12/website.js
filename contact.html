@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Shop Zone - About</title>
+ </head>
+ <body>
+    <main class="max-w-7xl mx-auto">
+        <section class="bg-gray-100 p-5">
+      <div class="container mx-auto flex flex-wrap justify-between items-center gap-4">
+        <!-- logo -->
+        <div class="flex items-center gap-2">
+          <img src="./images/logo.png" alt="Logo" class="w-12 h-12" />
+          <h1 class="font-bold text-2xl">Shop Zone</h1>
+        </div>
+
+        <!-- nav links -->
+        <nav class="flex flex-wrap gap-4 md:gap-6 items-center text-base">
+          <a href="/" class="font-semibold ">
+            <i class="fa-solid fa-house"></i> Home
+          </a>
+          <a href="./shop.html" class="font-semibold ">
+            <i class="fa-solid fa-cart-shopping"></i> Shop
+          </a>
+          <a href="./about.html" class="font-semibold ">
+            <i class="fa-solid fa-user"></i> About
+          </a>
+          <a href="./contact.html" class="font-semibold ">
+            <i class="fa-solid fa-location-dot"></i> Contact
+          </a>
+        </nav>
+
+        <!-- search -->
+        <div class="relative w-full md:w-auto flex-grow md:flex-grow-0">
+          <input type="text" placeholder="Search products"
+            class="w-full md:w-72 border border-black py-2 px-4 rounded-xl placeholder-gray-500 outline-none" />
+          <i class="fa-solid fa-magnifying-glass absolute right-4 top-1/2 transform -translate-y-1/2 text-blue-400"></i>
+        </div>
+
+        <!-- icons -->
+        <div class="flex gap-4 items-center">
+          <i class="fa-regular fa-heart text-2xl cursor-pointer"></i>
+          <i class="fa-solid fa-cart-shopping text-2xl cursor-pointer"></i>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-100 py-16 px-4 md:px-8 lg:px-16">
+  <div class="max-w-4xl mx-auto text-center mb-12">
+    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+    <p class="text-gray-600 text-lg">
+      Have a question or want to know more about our skincare products? We'd love to hear from you!
+    </p>
+  </div>
+
+  <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-lg p-8 md:p-12">
+    <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Name -->
+      <div class="flex flex-col">
+        <label class="text-gray-700 mb-2" for="name">Name</label>
+        <input class="border border-gray-300 rounded-lg p-4 outline-none  " type="text" id="name" placeholder="Your Name">
+      </div>
+      
+      <!-- Email -->
+      <div class="flex flex-col">
+        <label class="text-gray-700 mb-2" for="email">Email</label>
+        <input class="border border-gray-300 rounded-lg p-4 outline-none  " type="email" id="email" placeholder="Your Email">
+      </div>
+      
+      <!-- Subject -->
+      <div class="flex flex-col md:col-span-2">
+        <label class="text-gray-700 mb-2" for="subject">Subject</label>
+        <input class="border border-gray-300 rounded-lg p-4 outline-none" type="text" id="subject" placeholder="Subject">
+      </div>
+      
+      <!-- Message -->
+      <div class="flex flex-col md:col-span-2">
+        <label class="text-gray-700 mb-2" for="message">Message</label>
+        <textarea class="border border-gray-300 rounded-lg p-4 h-40 outline-none" id="message" placeholder="Your Message"></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="md:col-span-2 text-center">
+        <button type="submit" class="bg-black font-semibold hover:bg-white border-[2px] hover:text-black text-white px-8 py-4 rounded-full shadow  transition duration-300">
+          Send Message
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+    
+<footer class="bg-gray-800 text-white py-14 text-center">
+      <p>&copy; 2025 ShopZone - All rights reserved.</p>
+    </footer>
+
+    </main>
+ </body>
+ </html>
